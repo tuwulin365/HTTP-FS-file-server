@@ -77,5 +77,11 @@
   "str_rate_app": "Đánh giá ứng dụng",
 
   "ModeView": "XEM",
-  "ModeEdit": "SỬA"
+  "ModeEdit": "SỬA",
+
+  "str_drop_files": "Kéo thả tệp hoặc thư mục vào đây",
+  "str_or_click": "hoặc nhấp chuột để duyệt",
+  "str_start_upload": "Bắt đầu tải lên",
+  "str_remove": "Xóa",
+  "str_files_count": "tệp"
 }

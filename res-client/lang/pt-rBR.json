@@ -77,5 +77,11 @@
   "str_rate_app": "Avaliar o aplicativo",
 
   "ModeView": "VISUALIZAR",
-  "ModeEdit": "EDITAR"
+  "ModeEdit": "EDITAR",
+
+  "str_drop_files": "Arraste e solte arquivos ou pastas aqui",
+  "str_or_click": "ou clique para procurar",
+  "str_start_upload": "Iniciar upload",
+  "str_remove": "Remover",
+  "str_files_count": "arquivo(s)"
 }

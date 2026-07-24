@@ -77,5 +77,11 @@
   "str_rate_app": "App bewerten",
 
   "ModeView": "ANSICHT",
-  "ModeEdit": "BEARBEITEN"
+  "ModeEdit": "BEARBEITEN",
+
+  "str_drop_files": "Dateien oder Ordner hier ablegen",
+  "str_or_click": "Zum Durchsuchen klicken",
+  "str_start_upload": "Hochladen starten",
+  "str_remove": "Löschen",
+  "str_files_count": "Datei(en)"
 }

@@ -77,5 +77,11 @@
   "str_rate_app": "アプリを評価する",
 
   "ModeView": "閲覧",
-  "ModeEdit": "編集"
+  "ModeEdit": "編集",
+
+  "str_drop_files": "ここにファイルまたはフォルダをドロップしてください",
+  "str_or_click": "クリックして参照してください",
+  "str_start_upload": "アップロードを開始",
+  "str_remove": "削除",
+  "str_files_count": "ファイル数"
 }

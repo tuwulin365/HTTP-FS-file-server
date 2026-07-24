@@ -51,6 +51,7 @@
   "str_files": "Pliki",
 
   "str_error_permission": "Brak uprawnień",
+  "str_volume_readonly": "tylko do odczytu",
 
   "str_theme": "Motyw",
 
@@ -77,5 +78,11 @@
   "str_rate_app": "Oceń tę aplikację",
 
   "ModeView": "PODGLĄD",
-  "ModeEdit": "EDYCJA"
+  "ModeEdit": "EDYCJA",
+
+  "str_drop_files": "Upuść pliki lub foldery tutaj",
+  "str_or_click": "lub kliknij, aby przeglądać",
+  "str_start_upload": "Rozpocznij przesyłanie",
+  "str_remove": "Usuń",
+  "str_files_count": "plik(i)"
 }

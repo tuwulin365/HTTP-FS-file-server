@@ -77,5 +77,11 @@
   "str_rate_app": "Valorar la aplicación",
 
   "ModeView": "VISTA",
-  "ModeEdit": "EDICIÓN"
+  "ModeEdit": "EDICIÓN",
+
+  "str_drop_files": "Arrastre aquí los archivos o carpetas",
+  "str_or_click": "o haga clic para explorar",
+  "str_start_upload": "Iniciar carga",
+  "str_remove": "Eliminar",
+  "str_files_count": "archivo(s)"
 }

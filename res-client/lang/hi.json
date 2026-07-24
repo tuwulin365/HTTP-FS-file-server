@@ -77,5 +77,11 @@
   "str_rate_app": "ऐप को रेट करें",
 
   "ModeView": "देखें",
-  "ModeEdit": "संपादन"
+  "ModeEdit": "संपादन",
+
+  "str_drop_files": "फ़ाइल या फ़ोल्डर यहाँ ड्रॉप करें",
+  "str_or_click": "या ब्राउज़ करने के लिए क्लिक करें",
+  "str_start_upload": "अपलोड शुरू करें",
+  "str_remove": "हटाएँ",
+  "str_files_count": "फ़ाइल(फ़ाइलें)"
 }

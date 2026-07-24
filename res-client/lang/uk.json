@@ -51,6 +51,7 @@
   "str_files": "Файли",
 
   "str_error_permission": "Недостатньо прав",
+  "str_volume_readonly": "лише читання",
 
   "str_theme": "Тема",
 
@@ -77,5 +78,11 @@
   "str_rate_app": "Оцініть цей застосунок",
 
   "ModeView": "ПЕРЕГЛЯД",
-  "ModeEdit": "РЕДАГУВАННЯ"
+  "ModeEdit": "РЕДАГУВАННЯ",
+
+  "str_drop_files": "Перетягніть сюди файли або папки",
+  "str_or_click": "або натисніть, щоб переглянути",
+  "str_start_upload": "Розпочати завантаження",
+  "str_remove": "Видалити",
+  "str_files_count": "файл(и)"
 }

@@ -51,6 +51,7 @@
   "str_files": "Files",
 
   "str_error_permission": "Permission denied",
+  "str_volume_readonly": "read-only",
 
   "str_theme": "Theme",
 
@@ -86,5 +87,6 @@
   "str_or_click": "or click to browse",
   "str_start_upload": "Start upload",
   "str_remove": "Remove",
-  "str_files_count": "file(s)"
+  "str_files_count": "file(s)",
+  "str_upload_canceled": "Upload on server canceled"
 }

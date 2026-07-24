@@ -51,6 +51,7 @@
   "str_files": "Файлы",
 
   "str_error_permission": "Недостаточно прав",
+  "str_volume_readonly": "только чтение",
 
   "str_theme": "Тема",
 
@@ -77,5 +78,11 @@
   "str_rate_app": "Оценить приложение",
 
   "ModeView": "ПРОСМОТР",
-  "ModeEdit": "РЕДАКТИРОВАНИЕ"
+  "ModeEdit": "РЕДАКТИРОВАНИЕ",
+  
+  "str_drop_files": "Перетащите файлы или папки сюда",
+  "str_or_click": "или нажмите для просмотра",
+  "str_start_upload": "Начать загрузку",
+  "str_remove": "Удалить",
+  "str_files_count": "файл(ы)"
 }

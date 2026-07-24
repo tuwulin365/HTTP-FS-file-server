@@ -77,5 +77,11 @@
   "str_rate_app": "Noter l'application",
 
   "ModeView": "VOIR",
-  "ModeEdit": "MODIFIER"
+  "ModeEdit": "MODIFIER",
+
+  "str_drop_files": "Déposez des fichiers ou des dossiers ici",
+  "str_or_click": "ou cliquez pour parcourir",
+  "str_start_upload": "Démarrez le chargement",
+  "str_remove": "Supprimer",
+  "str_files_count": "fichier(s)"
 }

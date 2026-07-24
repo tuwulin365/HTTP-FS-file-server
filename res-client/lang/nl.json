@@ -77,5 +77,11 @@
   "str_rate_app": "Beoordeel de app",
 
   "ModeView": "BEKIJKEN",
-  "ModeEdit": "BEWERKEN"
+  "ModeEdit": "BEWERKEN",
+
+  "str_drop_files": "Sleep bestanden of mappen hierheen",
+  "str_or_click": "of klik om te bladeren",
+  "str_start_upload": "Start uploaden",
+  "str_remove": "Verwijderen",
+  "str_files_count": "bestand(en)"
 }
