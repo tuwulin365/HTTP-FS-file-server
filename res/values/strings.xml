@@ -87,6 +87,29 @@
     <string name="setting_cat_server">Server settings</string>
 
     <string name="setting_path_title">Path to folder</string>
+    <string name="setting_all_storages">All storages</string>
+    <string name="setting_all_storages_summary">%1$d volumes (%2$d accessible)</string>
+    <string name="setting_disable_ads_title">Disable ads</string>
+    <string name="setting_disable_ads_summary">Watch a rewarded ad to hide ads for this session</string>
+    <string name="setting_disable_ads_dialog">You can hide banner and full-screen ads until the app is restarted by watching one rewarded ad. Continue?</string>
+    <string name="setting_rewarded_ad_failed">The rewarded ad is not available right now. Try again later.</string>
+    <string name="setting_clear_data_category">Data</string>
+    <string name="setting_clear_data_title">Clear app data</string>
+    <string name="setting_clear_data_summary">Delete all settings, cache, and local app data</string>
+    <string name="setting_clear_data_confirm">All settings and local data will be permanently deleted. The app will restart. Continue?</string>
+    <string name="setting_volume_permissions_title">Storage permissions</string>
+    <string name="setting_volume_permissions_summary">Grant access to SD cards and removable storage</string>
+    <string name="volume_error_unmounted">Storage \"%1$s\" is not mounted</string>
+    <string name="volume_error_access_required">Storage access required for \"%1$s\"</string>
+    <string name="volume_wizard_title">Storage access</string>
+    <string name="volume_wizard_message">Grant access to \"%1$s\" so app can read and write files on this volume.</string>
+    <string name="volume_wizard_remaining">%1$d more volume(s) after this one.</string>
+    <string name="volume_wizard_skip">Skip</string>
+    <string name="volume_alert_title">Some storages are unavailable</string>
+    <string name="volume_alert_summary">%1$d of %2$d volumes are accessible. The following will be limited in the web UI and hidden in WebDAV:</string>
+    <string name="volume_alert_unmounted">%1$s — not mounted</string>
+    <string name="volume_alert_access">%1$s — permission required</string>
+    <string name="volume_alert_skipped">%1$s — skipped in setup</string>
 
     <string name="setting_file_title">Initial file</string>
 
@@ -204,7 +227,7 @@
     <string name="dialog_write_protection_unmount">It seems like the SD card is unmounted. Recommend choosing a different card.\n\n</string>
     <string name="dialog_write_protection_wrong">It seems like you have chosen the wrong folder.\n\n</string>
     <string name="dialog_write_protection_error">No activity found to handle intent\nACTION_OPEN_DOCUMENT_TREE\n\nThis device does not appear to support the Android Storage Access Framework</string>
-    <string name="dialog_write_protection_text">On Android ≥ 5, the external SD card is write protected. You need to choose the directory from a special Android dialog to give HTTP FS write rights. \n\nIb the next dialog, please go to the root of the external SD-card and click on the button at the bottom, <b>«Select»</b></string>
+    <string name="dialog_write_protection_text">On Android ≥ 5, the external SD card is write protected. You need to choose the directory from a special Android dialog to give HTTP FS write rights. \n\nIn the next dialog, please go to the root of the external SD-card and click on the button at the bottom, <b>«Select»</b></string>
     <string name="btn_retry">Retry</string>
 
     <string name="html_server_msg_pro"><![CDATA[<h2>Welcome to the PRO version!</h2><div>For any problems or suggestions, you can write to <a href="mailto:tiar.develop@gmail.com?subject=HttpFS&body=Hello." target="_blank">tiar.develop@gmail.com</a>.</div>]]></string>
@@ -249,4 +272,75 @@
     <string name="to">to</string>
     <string name="file_or_url">File or url</string>
     <string name="check_connection_socket">Check connection socket</string>
+
+    <string name="widget_server_description" translatable="false">Start or stop the server</string>
+
+    <string name="low_space_notification_channel">Storage alerts</string>
+    <string name="low_space_notification_title">Not enough free space</string>
+    <string name="low_space_notification_text">Upload cancelled — free at least 100 MB on the device.</string>
+    <string name="low_space_notification_text_volume">Upload to \"%1$s\" cancelled — not enough free space.</string>
+
+    <!-- Foreground service specialUse subtype (Play review / Android 14+) -->
+    <string name="fgs_special_use_subtype" translatable="false">User-started local HTTP/WebDAV file server that must stay running while the screen is off so clients on the LAN can browse and transfer files for as long as the user keeps the server enabled.</string>
+
+    <string name="certificates">Certificates</string>
+    <string name="certificate_edit">Certificate</string>
+    <string name="certificate_add">Add certificate</string>
+    <string name="certificate_add_summ">Auto, Import or Let\'s Encrypt</string>
+    <string name="certificate_empty">No certificates yet. Add one to enable HTTPS.</string>
+    <string name="certificate_reselect_needed">Certificate is not ready for HTTPS. Select it again after setup.</string>
+    <string name="certificate_name">Name</string>
+    <string name="certificate_source">Type</string>
+    <string name="certificate_settings">Settings</string>
+    <string name="certificate_acme_account">Domain</string>
+    <string name="certificate_acme_dns">DNS record</string>
+    <string name="certificate_acme_issue">Issue</string>
+    <string name="certificate_mode_auto">Auto (self-signed)</string>
+    <string name="certificate_mode_import">Import file</string>
+    <string name="certificate_mode_acme">Let\'s Encrypt</string>
+    <string name="certificate_format">Format</string>
+    <string name="certificate_format_keystore">Keystore (.p12 / .jks)</string>
+    <string name="certificate_format_pem">PEM</string>
+    <string name="certificate_regenerate">Regenerate</string>
+    <string name="certificate_cache">Keep after restart</string>
+    <string name="certificate_file">Certificate / keystore file</string>
+    <string name="certificate_key_file">Private key file</string>
+    <string name="certificate_password">Password</string>
+    <string name="certificate_domain">Domain</string>
+    <string name="certificate_email">Contact email</string>
+    <string name="certificate_domain_required">Enter a domain first</string>
+    <string name="certificate_email_required">Enter a contact email first</string>
+    <string name="certificate_acme_prepare_step">Prepare DNS</string>
+    <string name="certificate_acme_prepare_again">Prepare DNS again</string>
+    <string name="certificate_acme_verify_step">Verify</string>
+    <string name="certificate_acme_verify_need_prepare">Prepare DNS first</string>
+    <string name="certificate_acme_working">Contacting Let\'s Encrypt…</string>
+    <string name="certificate_acme_prepare_failed">Prepare DNS failed</string>
+    <string name="certificate_acme_verify_failed">Verification failed</string>
+    <string name="certificate_acme_dns_pending">DNS pending — verify next</string>
+    <string name="certificate_acme_txt_host">TXT host</string>
+    <string name="certificate_acme_txt_value">TXT value</string>
+    <string name="certificate_acme_share">Share DNS record</string>
+    <string name="certificate_status">Status</string>
+    <string name="certificate_status_ok">Valid · %1$d days left</string>
+    <string name="certificate_status_mode">Type: %1$s</string>
+    <string name="certificate_status_subject">Subject: %1$s</string>
+    <string name="certificate_status_issuer">Issuer: %1$s</string>
+    <string name="certificate_status_from">Valid from: %1$s</string>
+    <string name="certificate_status_to">Valid to: %1$s</string>
+    <string name="certificate_status_days">Days left: %1$d</string>
+    <string name="certificate_status_fp">SHA-256: %1$s</string>
+    <string name="certificate_status_self">Self-signed: %1$s</string>
+    <string name="certificate_delete">Delete</string>
+    <string name="certificate_delete_confirm">Delete this certificate?</string>
+    <string name="certificate_copied">Copied</string>
+    <string name="certificate_saved">Certificate saved</string>
+    <string name="certificate_issued">Certificate issued</string>
+    <string name="certificate_prepare_ok">Add the TXT record at your DNS, wait, then Verify.</string>
+    <string name="certificate_expiring_soon">Expires in %1$d days</string>
+    <string name="certificate_expired">Certificate expired</string>
+    <string name="certificate_missing_acme">Not issued yet</string>
+    <string name="certificate_not_generated">Not generated yet</string>
+    <string name="certificate_no_file">No file selected</string>
+    <string name="certificate_pick_summ">Tap to manage HTTPS certificates</string>
 </resources>
