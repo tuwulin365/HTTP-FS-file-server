@@ -26,7 +26,7 @@ You can also use app like webdav server. Also avalaible on [desktop](https://git
 </a>  
 </p>
 
-## User Help
+### User Help [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Tiarait/HTTP-FS-file-server)
 [Information about available settings in the application](https://tiarait.github.io/Http-FS-Intro/help.html)
 
 
